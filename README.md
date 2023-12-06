@@ -29,7 +29,7 @@
 ## 有趣的关联性
 1. heading 使用“#“的含义和notion、飞书相同；
     - ![notion image](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/200px-Notion-logo.svg.png ) *绝对路径*
-    - ！[feishu image](./upload.wikimedia.org/wikipedia/commons/thumb/4/42/Lark_Suite_logo_2022.png/440px-Lark_Suite_logo_2022.png)*相对路径????* **可能不是这样**
+    - ！[feishu image](./upload.wikimedia.org/wikipedia/commons/thumb/4/42/Lark_Suite_logo_2022.png/440px-Lark_Suite_logo_2022.png)*相对路径????*     **可能不是这样，但案例里的图片导入github也无法显示**
     - [notion](https://www.notion.so/)
     - [feishu](https://www.larksuite.com/en_us?from_site=feishu)
 2. 斜体、加粗语法和notion相同，和飞书大概也相同；
