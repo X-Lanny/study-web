@@ -41,28 +41,28 @@
 [创建成功的URL](https://x-lanny.github.io/ )
 [使用方法为知乎找到的](https://zhuanlan.zhihu.com/p/91652100)
 
-> 使用文档中的方法：
-到最后一步
-“git push -u origin master” (对我的GitHub来说位置是main,所以后面的代码都是main)
-终端要求输入用户名和密码；
-但无法输入密码，原因是粘贴不上去；
-问了gpt，它表示“在终端中输入密码时，通常是不会显示密码字符的，这是出于安全考虑。即使你输入密码时看不到字符，实际上系统仍在接受你的输入。
-当你按下回车键时，如果密码正确，系统会继续执行相应的命令。如果密码错误或其他问题，系统可能会显示错误消息。”
-> 于是我粘贴了，出现了一下的结果：
-> lancer_x@xxMacBook-Pro ~ % cd /Users/lancer_x/Desktop/X-Lanny.github.io
-lancer_x@xxMacBook-Pro X-Lanny.github.io % git init
-Initialized empty Git repository in /Users/lancer_x/Desktop/X-Lanny.github.io/.git/
-lancer_x@xxMacBook-Pro X-Lanny.github.io % git add .
-lancer_x@xxMacBook-Pro X-Lanny.github.io % git commit -m "first commit"
-[main (root-commit) d299709] first commit
- 1 file changed, 1 insertion(+)
- create mode 100644 index.html
-lancer_x@xxMacBook-Pro X-Lanny.github.io % git remote add origin https://github.com/X-Lanny/X-Lanny.github.io.git
-lancer_x@xxMacBook-Pro X-Lanny.github.io % git push -u origin main *从这里开始，失败了*
-Username for 'https://github.com': X-Lanny
-Password for 'https://X-Lanny@github.com': 
-remote: Invalid username or password.
-fatal: Authentication failed for 'https://github.com/X-Lanny/X-Lanny.github.io.git/'
-lancer_x@xxMacBook-Pro X-Lanny.github.io % 
+    > 使用文档中的方法：
+    > 到最后一步
+    > “git push -u origin master” (对我的GitHub来说位置是main,所以后面的代码都是main)
+    > 终端要求输入用户名和密码；
+    > 但无法输入密码，原因是粘贴不上去；
+    > 问了gpt，它表示“在终端中输入密码时，通常是不会显示密码字符的，这是出于安全考虑。即使你输入密码时看不到字符，实际上系统仍在接受你的输入。
+    > 当你按下回车键时，如果密码正确，系统会继续执行相应的命令。如果密码错误或其他问题，系统可能会显示错误消息。”
+    > 于是我粘贴了，出现了一下的结果：
+    > lancer_x@xxMacBook-Pro ~ % cd /Users/lancer_x/Desktop/X-Lanny.github.io
+    > lancer_x@xxMacBook-Pro X-Lanny.github.io % git init
+    > Initialized empty Git repository in /Users/lancer_x/Desktop/X-Lanny.github.io/.git/
+    > lancer_x@xxMacBook-Pro X-Lanny.github.io % git add .
+    > lancer_x@xxMacBook-Pro X-Lanny.github.io % git commit -m "first commit"
+    > [main (root-commit) d299709] first commit
+    >  1 file changed, 1 insertion(+)
+    >  create mode 100644 index.html
+    > lancer_x@xxMacBook-Pro X-Lanny.github.io % git remote add origin https://github.com/X-Lanny/X-Lanny.github.io.git
+    > lancer_x@xxMacBook-Pro X-Lanny.github.io % git push -u origin main *从这里开始，失败了*
+    > Username for 'https://github.com': X-Lanny
+    > Password for 'https://X-Lanny@github.com': 
+    > remote: Invalid username or password.
+    > fatal: Authentication failed for 'https://github.com/X-Lanny/X-Lanny.github.io.git/'
+    > lancer_x@xxMacBook-Pro X-Lanny.github.io % 
 
 
