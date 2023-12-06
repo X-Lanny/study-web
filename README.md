@@ -5,7 +5,7 @@
 >error: src refspec master does not match any
 >error: failed to push some refs to 'github.com:xxxxx/firsthub.git' 
 >这个错误通常表示本地的 master 分支可能为空或不存在。
->根据github上提供的语法看一下分支名称，直接贴过去
+>根据github上提供的语法看一下分支名称，直接贴过去 "> 的效果"
 
 2. github仓库页面可以切换https / git
 3. SSH 连接到远程仓库时的首次连接询问，通常会在第一次连接时出现。Git 在首次连接时会询问你是否信任远程主机的身份验证信息。
