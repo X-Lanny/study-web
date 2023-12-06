@@ -1,17 +1,17 @@
 # 关于学习历程、笔记 或者 心得
 
 ## git/终端 语法等
-1. >>>git push -u origin master”
->>>error: src refspec master does not match any
->>>error: failed to push some refs to 'github.com:xxxxx/firsthub.git' 
->>>这个错误通常表示本地的 master 分支可能为空或不存在。
->>>根据github上提供的语法看一下分支名称，直接贴过去
+1. git push -u origin master”
+>error: src refspec master does not match any
+>error: failed to push some refs to 'github.com:xxxxx/firsthub.git' 
+>这个错误通常表示本地的 master 分支可能为空或不存在。
+>根据github上提供的语法看一下分支名称，直接贴过去
 
 2. github仓库页面可以切换https / git
 3. SSH 连接到远程仓库时的首次连接询问，通常会在第一次连接时出现。Git 在首次连接时会询问你是否信任远程主机的身份验证信息。
 4. git add .*(有空格)* 
->>>git commit -m 'word peace'  
->>>git push
+>git commit -m 'word peace'  
+>git push
 5. cd /xxxx *（前面空格后面没有空格）*
 6. 关于文件夹位置的关系，有些时候报错可以退回到cd 再进来
 7. (在终端中) cat 命令用于打印文件内容，文件存在就会在终端打印出文件内容，不存在则会提示没有这个文件。
@@ -30,6 +30,6 @@
 1. heading 使用“#“的含义和notion、飞书相同；
     - ![notion image](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/200px-Notion-logo.svg.png ) *绝对路径*
     - ！[feishu image](./upload.wikimedia.org/wikipedia/commons/thumb/4/42/Lark_Suite_logo_2022.png/440px-Lark_Suite_logo_2022.png)*相对路径????* **可能不是这样**
-    -[notion](https://www.notion.so/)
-    -[feishu](https://www.larksuite.com/en_us?from_site=feishu)
+    - [notion](https://www.notion.so/)
+    - [feishu](https://www.larksuite.com/en_us?from_site=feishu)
 2. 斜体、加粗语法和notion相同，和飞书大概也相同；
