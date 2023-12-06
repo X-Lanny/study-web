@@ -40,8 +40,8 @@
 2. 关于github page 的问题；虽然成功创建出来了，但并非是文档中的方法：
     - [创建成功的URL](https://x-lanny.github.io/ )
     - [使用方法为知乎找到的](https://zhuanlan.zhihu.com/p/91652100)
-使用文档中的方法：
-到最后一步
+    >使用文档中的方法：
+    >到最后一步
     >“git push -u origin master” (对我的GitHub来说位置是main,所以后面的代码都是main)
     > 终端要求输入用户名和密码；
     > 但无法输入密码，原因是粘贴不上去；
